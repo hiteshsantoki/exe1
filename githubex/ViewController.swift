@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var newlabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        newlabel.backgroundColor =  UIColor.red
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -24,6 +28,7 @@ class ViewController: UIViewController {
     @IBAction func buttonClick(_ sender: Any)
     {
         print("this is just example")
+        
     }
 }
 
