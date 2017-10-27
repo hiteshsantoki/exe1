@@ -14,6 +14,7 @@
 		1D9ADEC61FA2063100F5D061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9ADEC41FA2063100F5D061 /* LaunchScreen.storyboard */; };
 		1D9ADED11FA2063100F5D061 /* githubexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9ADED01FA2063100F5D061 /* githubexTests.swift */; };
 		1D9ADEDC1FA2063100F5D061 /* githubexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9ADEDB1FA2063100F5D061 /* githubexUITests.swift */; };
+		1DE748A41FA31F01002E3F15 /* mapfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE748A31FA31F01002E3F15 /* mapfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1D9ADED71FA2063100F5D061 /* githubexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9ADEDB1FA2063100F5D061 /* githubexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubexUITests.swift; sourceTree = "<group>"; };
 		1D9ADEDD1FA2063100F5D061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE748A31FA31F01002E3F15 /* mapfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1D9ADEAF1FA2063100F5D061 = {
 			isa = PBXGroup;
 			children = (
+				1DE748A31FA31F01002E3F15 /* mapfile.swift */,
 				1D9ADEBA1FA2063100F5D061 /* githubex */,
 				1D9ADECF1FA2063100F5D061 /* githubexTests */,
 				1D9ADEDA1FA2063100F5D061 /* githubexUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				1D9ADEBE1FA2063100F5D061 /* ViewController.swift in Sources */,
 				1D9ADEBC1FA2063100F5D061 /* AppDelegate.swift in Sources */,
+				1DE748A41FA31F01002E3F15 /* mapfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +522,7 @@
 				1D9ADEE21FA2063100F5D061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9ADEE31FA2063100F5D061 /* Build configuration list for PBXNativeTarget "githubexTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				1D9ADEE51FA2063100F5D061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9ADEE61FA2063100F5D061 /* Build configuration list for PBXNativeTarget "githubexUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				1D9ADEE81FA2063100F5D061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
